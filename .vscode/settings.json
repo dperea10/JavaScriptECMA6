@@ -1,0 +1,7 @@
+{
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "workbench.preferredHighContrastColorTheme": "Monokai",
+    "workbench.settings.editor": "json",
+    "workbench.colorTheme": "Atom One Dark"
+}

@@ -155,13 +155,111 @@
 // 8) Programa una función que elimine cierto patrón de caracteres de un texto dado, 
 // pe. miFuncion("xyz1, xyz2, xyz3, xyz4 y xyz5", "xyz") devolverá  "1, 2, 3, 4 y 5.
 
-const eliminarCaracteres = (texto = "", caracteres = "") =>
-    (!texto) ?
-    console.warn("No ha ingresado el texto") :
-    (!caracteres) ?
-    console.warn("No ingresaste un patrón") :
-    console.info(texto.replace(new RegExp(caracteres, "ig"), ""));
+// const eliminarCaracteres = (texto = "", caracteres = "") =>capicúa
+//     (!texto) ?
+//     console.warn("No ha ingresado el texto") :
+//     (!caracteres) ?
+//     console.warn("No ingresaste un patrón") :
+//     console.info(texto.replace(new RegExp(caracteres, "ig"), ""));
 
 
-eliminarCaracteres();
-eliminarCaracteres("xyz1, xyz2, xyz3, xyz4 y xyz5", "xyz");
+// eliminarCaracteres();
+// eliminarCaracteres("xyz1, xyz2, xyz3, xyz4 y xyz5", "xyz");
+
+
+
+
+
+// 9) Programa una función que obtenga un numero aleatorio entre 501 y 600.
+
+
+// const numeroAleatorio = (numeroMin = 501, numeroMax = 600) => {
+
+//     let numRandon = Math.random(501, 600) * numeroMax;
+
+
+//     if (numRandon < 600 && numRandon > 501) {
+
+//         console.info("Entró :", numRandon.toFixed());
+
+//     } else {
+//         console.log("no entra en el rango", numRandon.toFixed())
+//     }
+
+
+// }
+// numeroAleatorio();
+
+
+
+//     (!numeroMin < 501) ?
+//     console.warn("El numero no cumple") :
+//     (!numeroMax > 600) ?
+//     console.warn("Es muy alto") :
+//     console.info(Math.random() * (numeroMax.toFixed() * numeroMin.toFixed()) + numeroMin.toFixed());
+
+// numeroAleatorio();
+
+const aleatorio = () => console.log(Math.round((Math.random() * 100) + 500));
+
+aleatorio();
+
+
+
+// 10) Programa una función que reciba un número y evalúe si es capicúa o no(que se lee igual en un sentido que en otro), 
+//pe.miFuncion(2002) devolverá true.
+
+
+// const recibirNumeroCapicua = (numero) => {
+
+//     if (!numero) return console.warn("No ha ingresado el número");
+//     let numeroCambiado = numero.toString().split('').reverse().join("");
+
+
+//     return (numeroCambiado === numero.toString()) ?
+//         console.log(`Si es Capicua, ${numero}, al revés es ${numeroCambiado}`) :
+//         console.log(`No es Capicua, ${numero}`);
+
+
+// }
+// recibirNumeroCapicua(2222221);
+
+
+// const recibirNumeroCapicua = (numero) => {
+
+//         //     if (!numero) return console.warn("No ha ingresado el número");
+//     let numeroCambiado = numero.toString().split('').reverse().join("");
+
+
+//     return (numeroCambiado === numero.toString()) ?
+//         console.log(`Si es Capicua, ${numero}, al revés es ${numeroCambiado}`) :
+//         console.log(`No es Capicua, ${numero}`);
+
+
+// }
+// recibirNumeroCapicua(2222221);
+
+
+
+// 11) Programa una función que calcule el factorial de un número(El factorial de un entero positivo n, 
+//se define como el producto de todos los números enteros positivos desde 1 hasta n), pe.miFuncion(5) devolverá 120.
+
+
+// const factorialEntero = (numeroFact) => {
+//     if (!numeroFact) return console.warn("No ha ingresado el número");
+//     let resultFactorial = 0;
+
+//     for (let index = numeroFact; index > 0; index--) {
+//         resultFactorial *= index;
+//         console.log(`${numeroFact},"Es el factorial "${(numeroFact -1) * numeroFact}  ${resultFactorial}`);
+
+//     }
+
+//     console.log(resultFactorial);
+
+
+//     return resultFactorial;
+
+// }
+
+// factorialEntero(1);
