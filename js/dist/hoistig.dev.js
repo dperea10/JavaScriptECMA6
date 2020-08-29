@@ -1,13 +1,8 @@
 // let numero = 4; //Declaración de la variable
-
 // numero = 3; //Inicialización de la variable
 // numero = 5;
-
 // console.log(numero);
-
 // document.write(numero)
-
-
 // function varTest() {
 //     const x = 31;
 //     if (true) {
@@ -19,7 +14,6 @@
 //     console.log(x); // 71
 // }
 // varTest();
-
 // function letTest() {
 //     let x = 31;
 //     if (true) {
@@ -29,5 +23,5 @@
 //     }
 //     console.log(x); // 31
 // }
-
 // letTest();
+"use strict";
