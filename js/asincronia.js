@@ -317,3 +317,30 @@ console.log(valueMapa2); */
 // let next = iterador.next();
 
 // console.log(next.done);
+
+//Proxies
+
+// const persona = {
+//     nombre: "",
+//     apellido: "",
+//     edad: 0
+// }
+
+// const manejador = {
+//     set(obj, prop, valor) {
+//         obj[prop] = valor;
+//     }
+// }
+
+// const diego = new Proxy(persona, manejador);
+// diego.nombre = "Diego";
+// diego.apellido = "Perea";
+// diego.edad = 31;
+// diego.redes = "twitter: diegoperea";
+
+
+// console.log(persona);
+// // console.log(manejador);
+// console.log(diego);
+
+//Propiedades dinámicas
